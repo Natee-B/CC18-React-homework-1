@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.underpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 5px;
+}
+
+/* ---------------------------------------------------- */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+/* ----------------------------------------------------- */
+.main {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: pink;
+    border-radius: 70px;
+    width: 800px;
+  
+}
+
+.floor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+
+}
